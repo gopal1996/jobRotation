@@ -1,0 +1,26 @@
+.job-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.job-card {
+    display: flex;
+    // min-width: 250px;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 18px 40px -12px rgba(134,38,195,.35);
+
+    i {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #8626c3;
+        font-size: 1.5rem;
+    }
+}

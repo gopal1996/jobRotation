@@ -1,0 +1,42 @@
+.card {
+    position: relative;
+    display: flex;
+    width: 250px;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+
+    &__image {
+        width: 100px;
+        margin: 1rem 0;
+        img {
+            width: 100px;
+        }
+    }
+
+    &__user {
+        margin-bottom: 0.5rem;
+    }
+
+    &__desc {
+        font-size: .8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__job-title {
+        align-self: flex-start;
+    }
+
+    &__user {
+        align-self: flex-start;
+    }
+
+    &__button {
+        outline: none;
+        border: 1px solid #8626c3;
+        padding: .275rem 1rem;
+        background: #fff;
+        color: #8626c3;
+        border-radius: 10px;
+    }
+}

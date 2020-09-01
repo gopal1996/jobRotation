@@ -1,0 +1,20 @@
+.promo {
+    display: flex;
+    
+    align-items: center;
+
+    &__video {
+        flex: 0 0 55%;
+        max-width: 55%;
+        margin: 1rem;
+    }
+
+    &__content {
+        margin: 1rem;
+        
+        h4 {
+            line-height: 1.5;
+            font-size: 1.5rem;
+        }
+    }
+}

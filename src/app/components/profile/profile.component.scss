@@ -1,0 +1,186 @@
+.profile {
+    display: flex;
+    padding: 1rem;
+
+    &-sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+    }
+
+    &__account {
+        text-align: center;
+        i {
+            font-size: 5rem;
+        }
+    }
+
+    &__name {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__designation {
+        font-size: .8rem;
+    }
+
+    &__location {
+        font-size: .8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__rotation {
+        padding: 1rem;
+        background: purple;
+        color: #fff;
+        margin: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    &-wrapper {
+        padding: 1.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__details {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: #fff;
+        padding: 1.5rem 1rem;
+        justify-content: center;
+        text-align: center;
+
+        &-unit {
+            border-right: 1px solid #000;
+            
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        &-tenure {
+            border-right: 1px solid #000;
+
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        &-worked {
+            border-right: 1px solid #000;
+
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        &-location {
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+
+    &__jobs {
+        width: 100%;
+    }
+
+    &__skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #fff;
+        padding: 1.5rem 1rem;
+        justify-content: center;
+        text-align: center;
+        margin: 1.5rem 0;
+
+        &-tags {
+            border-right: 1px solid #000;
+
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        &-top {
+
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+
+    &__job {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #fff;
+        padding: 1.5rem 1rem;
+        justify-content: center;
+        text-align: center;
+        margin: 1.5rem 0;
+
+        &-duedate {
+            border-right: 1px solid #000;
+
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        &-pastdate {
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+
+    &__learnings {
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                padding: .5rem 1rem;
+                border-radius: 20px;
+                background-color: #fff;
+                margin: 0 1rem;
+            }
+        }
+    }
+
+    &__completion {
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+
+    &__total {
+        background: cornflowerblue;
+        padding: 1rem;
+        margin: 1rem 0;
+        width: 100%;
+        
+    }
+
+    &__skill {
+        background: cornflowerblue;
+        padding: 1rem;
+        margin: 1rem 0;
+        width: 100%;
+    }
+}
+
+p {
+    margin-bottom: 0;
+}

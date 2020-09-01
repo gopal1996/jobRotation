@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8626c3;
+    color: #fff;
+    padding: 0 1rem;
+
+    &__list {
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-bottom: 0;
+
+            li {
+                margin: 0 0.5rem;
+            }
+        }
+    }
+
+    &__item {
+        padding: 1rem 0;
+
+        &--active {
+            border-bottom: 2px solid #fff;
+        }
+    }
+
+    &__brand {
+        display: flex;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 1rem;
+        color: #fff;
+        margin: 0 .5rem;
+    }
+}
